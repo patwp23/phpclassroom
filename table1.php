@@ -12,7 +12,7 @@
           echo "<td>column 4</td>";
           echo "<td>column 5</td>";
           echo "<td>column 6</td>";
-          echo "</tr>"
+          echo "</tr>";
         }
         ?>
       </table>
