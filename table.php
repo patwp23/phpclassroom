@@ -1,4 +1,4 @@
-<?php>
+<?php
   echo "<table border='1'>"; //tagเปิด
 
   for($i=0;$i<10;$i++){
