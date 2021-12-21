@@ -6,11 +6,11 @@
 
   echo "<p><center><h2>รายงานสถานการโควิด-19 แยกจังหวัด</h2></center></p>";
   echo "<p><center><table border='1'>";
-  echo "<tr><td style = 'background-color:#5092B4'><center><b>ลำดับ</b></center></td><td style = 'background-color:#5092B4'><center><b>จังหวัด</b></center></td>
-  <td style = 'background-color:#5092B4'><center><b>ผู้ป่วยใหม่</b></center></td><td style = 'background-color:#5092B4'><center><b>ผู้ป่วยรวม</b></center></td>
-  <td style = 'background-color:#5092B4'><center><b>ผู้ป่วยใหม่ในประเทศ</b></center></td><td style = 'background-color:#5092B4'><center><b>ผู้ป่วยรวมในประเทศ</b></center></td>
-  <td style = 'background-color:#5092B4'><center><b>ผู้เสียชีวิตใหม่</b></center></td>
-  <td style = 'background-color:#5092B4'><center><b>ผู้เสียชีวิตรวม</b></center></td><td style = 'background-color:#5092B4'><center><b>วันที่อัพเดท</b></center></td></tr>";
+  echo "<tr><td style = 'background-color:#206471'><center><b>ลำดับ</b></center></td><td style = 'background-color:#5092B4'><center><b>จังหวัด</b></center></td>
+  <td style = 'background-color:#206471'><center><b>ผู้ป่วยใหม่</b></center></td><td style = 'background-color:#5092B4'><center><b>ผู้ป่วยรวม</b></center></td>
+  <td style = 'background-color:#206471'><center><b>ผู้ป่วยใหม่ในประเทศ</b></center></td><td style = 'background-color:#5092B4'><center><b>ผู้ป่วยรวมในประเทศ</b></center></td>
+  <td style = 'background-color:#206471'><center><b>ผู้เสียชีวิตใหม่</b></center></td>
+  <td style = 'background-color:#5092B4'><center><b>ผู้เสียชีวิตรวม</b></center></td><td style = 'background-color:#206471'><center><b>วันที่อัพเดท</b></center></td></tr>";
   foreach($data as $key=>$val){
     echo "<tr>";
     echo "<td style = 'background-color:#ADD6DE'>";
