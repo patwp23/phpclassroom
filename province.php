@@ -46,8 +46,8 @@
    }
   echo "</table></center></p>";
 
-    echo "<br><br>";
-    echo "<center><font color='#29475A'><b>วันที่อัพเดต</b></center>";
-	echo "<center>". $val->update_date."</center>"; 
+    echo "<br>";
+    echo "<center><font color='#29475A'><p><b>วันที่อัพเดต</b></p></center>";
+	echo "<p><center>". $val->update_date."</center></p>"; 
 	
 ?>
