@@ -15,7 +15,7 @@
   <td style = 'background-color:#29475A'><center><font color='FFFFFF'><b>ผู้ป่วยรวมในประเทศ</b></center></td>
   <td style = 'background-color:#29475A'><center><font color='FFFFFF'><b>ผู้เสียชีวิตใหม่</b></font></center></td>
   <td style = 'background-color:#29475A'><center><font color='FFFFFF'><b>ผู้เสียชีวิตรวม</b></font></center></td>
-  <td style = 'background-color:#29475A'><center><font color='FFFFFF'><b>วันที่อัพเดท</b></font></center></td></tr>";
+	</tr>";
   foreach($data as $key=>$val){
     echo "<tr>";
     echo "<td style = 'background-color:#ADD6DE'><center>";
@@ -47,6 +47,6 @@
   echo "</table></center></p>";
 
     echo "<br><br>";
-    echo "<center>วันที่อัพเดต</center>";
-
+    echo "<center><font color='#29475A'><b>วันที่อัพเดต</b></center>";
+	
 ?>
