@@ -48,6 +48,6 @@
     
     echo "</tr>";
    }
-  echo "</table><p><center>";
+  echo "</table><p><center></p>";
 
 ?>
