@@ -6,7 +6,7 @@
 
   echo "<p><center><h2>รายงานสถานการโควิด-19 แยกจังหวัด</h2></center></p>";
   echo "<p><center><table border='1'>";
-  echo "<tr><td style = 'background-color:#206471'><center><font color='FFFFFF'><b>ลำดับ</b></font></center></td>
+  echo "<tr><td style = 'background-color:#29475A'><center><font color='FFFFFF'><b>ลำดับ</b></font></center></td>
   <td style = 'background-color:#29475A'><center><font color='FFFFFF'><b>จังหวัด</b></font></center></td>
   <td style = 'background-color:#29475A'><center><font color='FFFFFF'><b>ผู้ป่วยใหม่</b></center></td>
   <td style = 'background-color:#29475A'><center><font color='FFFFFF'><b>ผู้ป่วยรวม</b></font></font></center></td>
