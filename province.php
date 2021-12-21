@@ -48,6 +48,6 @@
 
     echo "<br><br>";
     echo "<center><font color='#29475A'><b>วันที่อัพเดต</b></center>";
-	echo $val->update_date; 
+	echo "<center>". $val->update_date."</center>"; 
 	
 ?>
