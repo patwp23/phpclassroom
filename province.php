@@ -42,9 +42,9 @@
     echo "<td style = 'background-color:#DDFCFF'><center>";
     echo $val->total_death; 
     echo "</center></td>";
-    echo "<td style = 'background-color:#ADD6DE'>";
+    echo "<td style = 'background-color:#ADD6DE'><center>";
     echo $val->update_date; 
-    echo "</td>";
+    echo "</center></td>";
     
     echo "</tr>";
    }
