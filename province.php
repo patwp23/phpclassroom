@@ -9,13 +9,12 @@
     echo "<tr>";
     echo "<td>";
     echo ($key+1);
-    echo "</td>"
+    echo "</td>";
     echo "<td>";
     echo $val->province; 
-    echo "</td>"
-    echo "</tr>"
-    
-    
-  }
+    echo "</td>";
+    echo "</tr>";
+   }
+  echo "</table>";
 
 ?>
