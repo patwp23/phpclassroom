@@ -44,7 +44,7 @@
     echo "</center></td>";
     echo "</tr>";
    }
-  echo "</table><p><center></p>";
+  echo "</table></center></p>";
 
     echo "<br><br>";
     echo "<center>วันที่อัพเดต</center>";​
