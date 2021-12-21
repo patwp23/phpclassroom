@@ -48,6 +48,7 @@
 
     echo "<br><br>";
     echo "<center>วันที่อัพเดต</center>";​
-    echo "<br>";
-    echo $val->update_date; ​
+    echo "<br><center>";
+    echo $val->update_date;
+    echo "</center>";
 ?>
