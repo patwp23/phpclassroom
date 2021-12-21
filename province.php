@@ -42,13 +42,12 @@
     echo "<td style = 'background-color:#DDFCFF'><center>";
     echo $val->total_death; 
     echo "</center></td>";
-    echo "<br><br>";
-    echo "<center>วันที่อัพเดต</center>";​
-    echo $val->update_date; 
-    
-    
     echo "</tr>";
    }
   echo "</table><p><center></p>";
 
+    echo "<br><br>";
+    echo "<center>วันที่อัพเดต</center>";​
+    echo "<br>";
+    echo "<center>$val->update_date</center>"; ​
 ?>
