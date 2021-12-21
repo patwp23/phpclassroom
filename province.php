@@ -18,9 +18,9 @@
   <td style = 'background-color:#29475A'><center><font color='FFFFFF'><b>วันที่อัพเดท</b></font></center></td></tr>";
   foreach($data as $key=>$val){
     echo "<tr>";
-    echo "<center><td style = 'background-color:#ADD6DE'>";
+    echo "<td style = 'background-color:#ADD6DE'><center>";
     echo ($key+1);
-    echo "</td></center>";
+    echo "</center></td>";
     echo "<td style = 'background-color:#DDFCFF'>";
     echo $val->province; 
     echo "</td>";
