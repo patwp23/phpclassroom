@@ -5,7 +5,9 @@
   
   echo "<p><center><h3>รายงานสถานการโควิด-19 แยกจังหวัด</h3></center></p>";
   echo "<p><center><table border='1'>";
-  echo "<center><b><tr><td>ลำดับ</td><td>จังหวัด</td><td>ผู้ป่วยใหม่</td><td>ผู้ป่วยรวม</td><td>ผู้ป่วยใหม่ในประเทศ</td><td>ผู้ป่วยรวมในประเทศ</td><td>ผู้เสียชีวิตใหม่</td><td>ผู้เสียชีวิตรวม</td><td>วันที่อัพเดท</td></tr></b></center>";
+  echo "<tr><td><center><b>ลำดับ</b></center></td><td><center><b>จังหวัด</b></center></td><td><center><b>ผู้ป่วยใหม่</b></center></td><td><center><b>ผู้ป่วยรวม</b></center></td>
+  <td><center><b>ผู้ป่วยใหม่ในประเทศ</b></center></td><td><center><b>ผู้ป่วยรวมในประเทศ</b></center></td><td><center><b>ผู้เสียชีวิตใหม่</b></center></td>
+  <td><center><b>ผู้เสียชีวิตรวม</b></center></td><td><center><b>วันที่อัพเดท</b></center></td></tr>";
   foreach($data as $key=>$val){
     echo "<tr>";
     echo "<td>";
