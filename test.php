@@ -53,6 +53,6 @@
   echo "</table><br>"; 
 
   echo "<center><b>วันที่อัปเดต</b></center>";
-  echo "<center>".$val->update_date."</center>";
+  
   
 ?>
