@@ -135,35 +135,38 @@
           <!-- แก้ไขส่วนที่ 3 -->
           <!-- Loop -->
           <tr>
-            
+           <?php 
+              $json = file_get_contents("https://covid19.ddc.moph.go.th/api/Cases/today-cases-all");
+              $data = json_decode($json);
+             
             foreach($data as $key=>$val){
-    echo "<tr>";
-    echo "<td><center>";
-    echo ($key+1);
-    echo "</center></td>";
-    echo "<td>";
-    echo $val->province; 
-    echo "</td>";
-    echo "<td><center>";
-    echo $val->new_case; 
-    echo "</center></td>";    
-    echo "<td><center>";
-    echo $val->total_death; 
-    echo "</center></td>";
-    echo "<td><center>";
-    echo $val->total_case; 
-    echo "</center></td>";
-    echo "<td><center>";
-    echo $val->total_case; 
-    echo "</center></td>";
-    echo "<td><center>";
-    echo $val->new_death; 
-    echo "</center></td>";
-    echo "</tr>";
-   }
+                echo "<tr>";
+                echo "<td><center>";
+                echo ($key+1);
+                echo "</center></td>";
+                echo "<td>";
+                echo $val->province; 
+                echo "</td>";
+                echo "<td><center>";
+                echo $val->new_case; 
+                echo "</center></td>";    
+                echo "<td><center>";
+                echo $val->total_death; 
+                echo "</center></td>";
+                echo "<td><center>";
+                echo $val->total_case; 
+                echo "</center></td>";
+                echo "<td><center>";
+                echo $val->total_case; 
+                echo "</center></td>";
+                echo "<td><center>";
+                echo $val->new_death; 
+                echo "</center></td>";
+                echo "</tr>";
+              }
             
             
-            
+            ?>
           </tr>
         </table>
       </div>
