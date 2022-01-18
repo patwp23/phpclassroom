@@ -51,7 +51,7 @@
       <div class="card mb-3" style="max-width: 540px;">
         <div class="row g-0">
           <div class="col-md-4">
-            <img src="ppaatt.jpg" class="img-fluid rounded-start" alt="...">
+            <img src="profile.jpg" class="img-fluid rounded-start" alt="...">
           </div>
           <div class="col-md-8">
             <div class="card-body">
@@ -135,28 +135,35 @@
           <!-- แก้ไขส่วนที่ 3 -->
           <!-- Loop -->
           <tr>
-            <td> - </td>
-            <td> - </td>
-            <td> - </td>
-            <td> - </td>
-            <td> - </td>
-            <td> - </td>
-          </tr>
-          <tr>
-            <td> - </td>
-            <td> - </td>
-            <td> - </td>
-            <td> - </td>
-            <td> - </td>
-            <td> - </td>
-          </tr>
-          <tr>
-            <td> - </td>
-            <td> - </td>
-            <td> - </td>
-            <td> - </td>
-            <td> - </td>
-            <td> - </td>
+            
+            foreach($data as $key=>$val){
+    echo "<tr>";
+    echo "<td><center>";
+    echo ($key+1);
+    echo "</center></td>";
+    echo "<td>";
+    echo $val->province; 
+    echo "</td>";
+    echo "<td><center>";
+    echo $val->new_case; 
+    echo "</center></td>";    
+    echo "<td><center>";
+    echo $val->total_death; 
+    echo "</center></td>";
+    echo "<td><center>";
+    echo $val->total_case; 
+    echo "</center></td>";
+    echo "<td><center>";
+    echo $val->total_case; 
+    echo "</center></td>";
+    echo "<td><center>";
+    echo $val->new_death; 
+    echo "</center></td>";
+    echo "</tr>";
+   }
+            
+            
+            
           </tr>
         </table>
       </div>
