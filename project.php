@@ -51,13 +51,13 @@
       <div class="card mb-3" style="max-width: 540px;">
         <div class="row g-0">
           <div class="col-md-4">
-            <img src="ppaatt.jpg" class="img-fluid rounded-start" alt="...">
+            <img src="ppaatt.jpg" class="img-fluid rounded-start" alt="pat">
           </div>
           <div class="col-md-8">
             <div class="card-body">
               <h5 class="card-title">จัดทำโดย</h5>
-              <p class="card-text">นายยิ่งคุณ รอดทิม </p>
-              <p class="card-text"><small class="text-muted">ม.6/13 เลขที่ 0 , 88888</small></p>
+              <p class="card-text">นางสาววรนิษฐา ปอแก้ว </p>
+              <p class="card-text"><small class="text-muted">ม.6/13 เลขที่ 23 , 55811</small></p>
             </div>
           </div>
         </div>
