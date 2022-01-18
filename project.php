@@ -134,7 +134,6 @@
           </tr>
           <!-- แก้ไขส่วนที่ 3 -->
           <!-- Loop -->
-          <tr>
            <?php 
               $json = file_get_contents("https://covid19.ddc.moph.go.th/api/Cases/today-cases-all");
               $data = json_decode($json);
@@ -167,7 +166,6 @@
             
             
             ?>
-          </tr>
         </table>
       </div>
     </div>
