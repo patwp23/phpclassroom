@@ -146,7 +146,7 @@
                 echo "<td>";
                 echo $val->province; 
                 echo "</td>";
-                echo "<td>";&nbsp;
+                echo "<td>";
                 echo $val->new_case; 
                 echo "</td>";    
                 echo "<td>";
