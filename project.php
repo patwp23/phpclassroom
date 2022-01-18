@@ -124,14 +124,14 @@
     <div class="row">
       <div class="col">
         <table class="table table-striped rounded-3">
-          <tr>
-            <th>#</th>
+          <tr><center>
+            <th>ลำดับ</th>
             <th>จังหวัด</th>
             <th>ผู้ป่วยใหม่</th>
             <th>เสียชีวิตรวม</th>
             <th>ผู้ป่วยสะสม</th>
             <th>เสียชีวิต</th>
-          </tr>
+          </tr></center>
           <!-- แก้ไขส่วนที่ 3 -->
           <!-- Loop -->
            <?php 
@@ -146,18 +146,18 @@
                 echo "<td>";
                 echo $val->province; 
                 echo "</td>";
-                echo "<td>";
+                echo "<td><center>";
                 echo $val->new_case; 
-                echo "</td>";    
-                echo "<td>";
+                echo "</center></td>";    
+                echo "<td><center>";
                 echo $val->total_death; 
-                echo "</td>";
-                echo "<td>";
+                echo "</center></td>";
+                echo "<td><center>";
                 echo $val->total_case; 
-                echo "</td>";
-                echo "<td>";
+                echo "</center></td>";
+                echo "<td><center>";
                 echo $val->new_death; 
-                echo "</td>";
+                echo "</center></td>";
                 echo "</tr>";
               }
             
