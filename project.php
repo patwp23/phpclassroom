@@ -156,9 +156,6 @@
                 echo $val->total_case; 
                 echo "</td>";
                 echo "<td>";
-                echo $val->total_case; 
-                echo "</td>";
-                echo "<td>";
                 echo $val->new_death; 
                 echo "</td>";
                 echo "</tr>";
