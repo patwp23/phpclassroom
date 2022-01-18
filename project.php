@@ -146,18 +146,18 @@
                 echo "<td>";
                 echo $val->province; 
                 echo "</td>";
-                echo "<td>";
+                echo "<td><center>";
                 echo $val->new_case; 
-                echo "</td>";    
-                echo "<td>";
+                echo "</center></td>";    
+                echo "<td><center>";
                 echo $val->total_death; 
-                echo "</td>";
-                echo "<td>";
+                echo "</center></td>";
+                echo "<td><center>";
                 echo $val->total_case; 
                 echo "</td>";
-                echo "<td>";
+                echo "<td><center>";
                 echo $val->new_death; 
-                echo "</td>";
+                echo "</center></td>";
                 echo "</tr>";
               }
             
