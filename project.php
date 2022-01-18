@@ -140,27 +140,27 @@
              
             foreach($data as $key=>$val){
                 echo "<tr>";
-                echo "<td><center>";
+                echo "<td>";
                 echo ($key+1);
-                echo "</center></td>";
+                echo "</td>";
                 echo "<td>";
                 echo $val->province; 
                 echo "</td>";
-                echo "<td><center>";
+                echo "<td>";
                 echo $val->new_case; 
-                echo "</center></td>";    
-                echo "<td><center>";
+                echo "</td>";    
+                echo "<td>";
                 echo $val->total_death; 
-                echo "</center></td>";
-                echo "<td><center>";
+                echo "</td>";
+                echo "<td>";
                 echo $val->total_case; 
-                echo "</center></td>";
-                echo "<td><center>";
+                echo "</td>";
+                echo "<td>";
                 echo $val->total_case; 
-                echo "</center></td>";
-                echo "<td><center>";
+                echo "</td>";
+                echo "<td>";
                 echo $val->new_death; 
-                echo "</center></td>";
+                echo "</td>";
                 echo "</tr>";
               }
             
